@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/python3
 """this module facilitates serialization and deserialization"""
 import json
 from models.amenity import Amenity

@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/python3
 """ this module contains the class Place """
 from models.base_model import BaseModel
 
