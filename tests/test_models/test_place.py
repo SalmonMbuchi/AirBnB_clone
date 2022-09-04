@@ -75,7 +75,7 @@ class TestPlace_instantiation(unittest.TestCase):
 
     def test_price_by_night_is_public_class_attribute(self):
         pl = Place()
-        self.assertEqual(float, type(Place.price_by_night))
+        self.assertEqual(int, type(Place.price_by_night))
         self.assertIn("price_by_night", dir(pl))
         self.assertNotIn("price_by_night", pl.__dict__)
 
