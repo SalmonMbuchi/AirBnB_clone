@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Places</title>
+    <!-- external CSS Links -->
+    <link rel="stylesheet" href="./styles/4-common.css">
+    <link rel="stylesheet" href="./styles/3-footer.css">
+    <link rel="stylesheet" href="./styles/3-header.css">
+    <link rel="stylesheet" href="./styles/6-filters.css">
+    <link rel="stylesheet" href="./styles/7-places.css">
+    <!-- adding an icon to the browser tab -->
+    <link rel="shortcut icon" href="./images/icon.png" type="image/x-icon">
+</head>
+
+<body>
+
+    <header>
+        <!-- a div with the class container -->
+        <div class="container">
+            <!-- filter section -->
+            <section class="filters">
+                <button type="button">Search</button>
+                <!-- location -->
+                <div class="locations">
+                    <h3>States</h3>
+                    <h4>Chicago, Illinois, Miami</h4>
+                    <ul class="popover">
+                        <li><h2>Miami:</h2></li> 
+                        <li>
+                            <ul class="popover_list">
+                                <li>Florida</li>
+                                <li>New York</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <!-- Amenities -->
+                <div class="amenities">
+                    <h3>Amenities</h3>
+                    <h4>Swimming pool, gym, CCTV</h4>
+                    <ul class="popover">
+                        <li>gym</li>
+                        <li>wifi</li>
+                        <li>pool</li>
+                    </ul>
+                </div>
+            </section>
+            <!-- places section -->
+            <section class="places">
+                <div class="places_title">
+                    <h1>Places</h1>
+                </div>
+                <div class="articles">    
+                    <article>
+                        <h2>Greece</h2>
+                    </article>
+                    <article>
+                        <h2>France</h2>
+                    </article>
+                    <article>
+                        <h2>Madagascar</h2>
+                    </article>
+                </div>
+            </section>
+        </div>
+    </header>
+    <footer>
+        <p>Best School</p>
+    </footer>
+</body>
+
+</html>
